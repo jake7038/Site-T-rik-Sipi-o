@@ -1,10 +1,5 @@
 body {
   overflow-x: none;
-  overflow-y: none;
-}
-.comida {
-  font-family: "Source Serif 4";
-  color: #C89DD8;
 }
 .foto-perfil-celular {
   display: none;
@@ -277,6 +272,45 @@ button a {
     width: 100%;
     height: 100%;
   }
+  #apresentacao {
+    background-image: url('./img/plano-de-fundo/background-lg-1.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+    overflow-y: hidden;
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  #apresentacao p {
+    color: #fff;
+  }
+  #apresentacao h2 {
+    font-size: 42px;
+    font-weight: bolder;
+  }
+  #apresentacao h2 {
+    color: #ed6935;
+  }
+  #apresentacao h2 span {
+    font-weight: bolder;
+  }
+  #apresentacao span {
+    font-weight: bolder;
+  }
+  #apresentacao .col-lg-5 {
+    height: 520px;
+    overflow-y: hidden;
+  }
+  #apresentacao .col-lg-5 .container ul li {
+    list-style: none;
+    object-fit: cover;
+    overflow-y: hidden;
+    object-fit: contain;
+  }
+  #apresentacao .col-lg-5 .container ul li img {
+    object-fit: contain;
+  }
   #Resultados button {
     height: 60px;
     width: 450px;
@@ -324,6 +358,7 @@ button a {
     text-align: center;
   }
   #apresentacao {
+    display: flex;
     height: 50em;
     background-image: url("./build/img/plano-de-fundo/background-sm-escritorio-vazio.png");
     background-size: cover;
@@ -342,11 +377,10 @@ button a {
   }
   #apresentacao .container .col-lg-5 {
     width: 100%;
-    height: 280px;
   }
   #apresentacao li {
     width: 20em;
-    left: 2em;
+    left: 1em;
     top: 0em;
   }
   .carousel-item img {

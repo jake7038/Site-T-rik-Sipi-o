@@ -3,7 +3,7 @@
 body{
     
     overflow-x: none;
-    overflow-y: none;
+    
 }
 
 
@@ -377,6 +377,68 @@ button a{
 
     }
 
+    #apresentacao{
+
+        background-image: url('./img/plano-de-fundo/background-lg-1.png');
+        background-size: cover;
+        background-repeat: repeat-y;
+        overflow-y: hidden;
+        object-fit: contain;
+        position: relative;
+        p{
+            color: #fff  ;
+        }
+        h2{
+            font-size: 42px;
+            font-weight: bolder;
+            
+        }
+        display: flex;
+        justify-content: center;
+        h2{
+            color: @laranjaprimario  ;
+            span{
+                font-weight:bolder
+            }
+        }
+        span{
+            font-weight:bolder;
+            
+        }
+        .col-lg-5{
+            
+            height: 520px;
+            
+            overflow-y: hidden;
+            
+            .container{
+                
+                ul{
+                   
+                }
+                
+                ul li{
+                    
+                    list-style: none;
+                    object-fit: cover;
+                    overflow-y: hidden;
+                    object-fit: contain;
+                }
+                
+                ul li img{
+                   
+                    object-fit: contain;
+                }
+                
+            }
+            
+            
+        }
+    
+        }
+
+    
+
     #Resultados button{
         height: 60px;
         width: 450px;
@@ -444,6 +506,7 @@ button a{
         }
     }
 #apresentacao{
+    display: flex;
     height: 50em;
     background-image: url("./build/img/plano-de-fundo/background-sm-escritorio-vazio.png");
     background-size: cover;
@@ -468,14 +531,14 @@ button a{
     .container{
         .col-lg-5{
             width: 100%;
-            height: 280px;
+           
         }
     }
     
     li{
         
         width: 20em;
-        left: 2.0em;
+        left: 1.0em;
         top: 0em;
        
 
