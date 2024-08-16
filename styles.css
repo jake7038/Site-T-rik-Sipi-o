@@ -16,6 +16,39 @@ footer {
   padding-bottom: 0.1em;
   padding-top: 0.1em;
 }
+footer .grid {
+  display: inline-flex;
+  justify-content: space-between;
+}
+footer .quadrado__zap {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+  background-color: #25d366;
+}
+footer .quadrado__zap .bi {
+  font-size: 2em;
+  color: #fff;
+}
+footer .quadrado__zap:hover {
+  transform: scale(1.1);
+}
+footer .quadrado__insta {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+  background-color: #25d366;
+  background-color: #B80085;
+}
+footer .quadrado__insta .bi {
+  font-size: 2em;
+  color: #fff;
+}
+footer .quadrado__insta:hover {
+  transform: scale(1.1);
+}
 footer p {
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -360,7 +393,7 @@ button a {
   #apresentacao {
     display: flex;
     height: 50em;
-    background-image: url("./build/img/plano-de-fundo/background-sm-escritorio-vazio.png");
+    background-image: url("./img/plano-de-fundo/background-lg-1.png");
     background-size: cover;
     overflow-x: hidden;
     align-content: center;

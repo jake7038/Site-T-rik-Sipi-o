@@ -25,6 +25,39 @@ background-color: @pretoprimario;
 color: #fff;
 padding-bottom: 0.1em;
 padding-top:  0.1em;
+
+   .grid{
+    display: inline-flex;
+    justify-content: space-between;
+   }
+    .quadrado__zap{
+        
+        text-align: center;
+        
+        height: 50px;
+        width: 50px;
+        
+        border-radius: 20%;
+        background-color: #25d366;
+        
+        .bi{
+            font-size:2em;
+            
+            color: #fff
+        
+        
+        }
+        &:hover{
+            
+            transform: scale(1.1);
+            
+        }
+    }
+
+    .quadrado__insta{
+        .quadrado__zap;
+        background-color: #B80085;
+    }
 p{
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -508,7 +541,7 @@ button a{
 #apresentacao{
     display: flex;
     height: 50em;
-    background-image: url("./build/img/plano-de-fundo/background-sm-escritorio-vazio.png");
+    background-image: url("./img/plano-de-fundo/background-lg-1.png");
     background-size: cover;
     overflow-x: hidden;
     
