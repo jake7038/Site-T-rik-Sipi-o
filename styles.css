@@ -11,6 +11,7 @@ body {
   color: #fff;
 }
 footer {
+  overflow-x: hidden;
   background-color: #1b1b1b;
   color: #fff;
   padding-bottom: 0.1em;
