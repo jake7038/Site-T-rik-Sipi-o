@@ -181,10 +181,6 @@ button a {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.carousel-inner {
-  border: 0.4em solid #ed6935;
-  border-radius: 10%;
-}
 #Resultados img {
   cursor: grab;
 }
@@ -392,7 +388,7 @@ button a {
     overflow: hidden;
     position: relative;
     align-content: center;
-    border: 2px solid #ca9a21;
+    border: 4px solid #ed6935;
     color: #fff;
   }
   #quem-sou .container .card .imagem .circle img {
@@ -400,6 +396,9 @@ button a {
   }
 }
 @media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
   footer p {
     font-size: 0.9em;
     text-align: center;
@@ -510,9 +509,18 @@ button a {
     margin-top: 1em !important;
     margin-bottom: 1em !important;
   }
+  #quem-sou .container {
+    padding-left: 8px;
+  }
+  #quem-sou .container .botao-nutri-final {
+    position: relative;
+  }
   #quem-sou .container .card {
     height: 70em ;
     width: 100% ;
+  }
+  #quem-sou .container .card .texto {
+    padding-left: 3em;
   }
   #quem-sou .container .card .texto h4 {
     width: 90%;
