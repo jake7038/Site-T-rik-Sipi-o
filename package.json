@@ -5,7 +5,7 @@
     "less": "^4.2.0",
     "less-watch-compiler": "^1.16.3"
   },
-  "name": "site-eloah-ribeiro",
+  "name": "site-tarik",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -55,6 +55,7 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
+    "pkg-rename":"pkg-rename",
     "gulp": "gulp",
     "less": "lessc main.less styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"

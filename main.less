@@ -28,8 +28,16 @@ padding-bottom: 0.1em;
 padding-top:  0.1em;
 
    .grid{
+    padding-right: 0;
+    padding-left: 5%;
     display: inline-flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    column-gap: 1rem;
+
    }
     .quadrado__zap{
         
@@ -224,7 +232,8 @@ button a{
 
 .botao-nutri:hover{
     border-color: @begesec;
-    background-color:  @begesec;
+    background-color:  @ourosec;
+    filter: contrast(140%);
 }
 
 .botao-nutri:active{
@@ -319,13 +328,19 @@ button a{
     background-image: url(./img/plano-de-fundo/background-lg-1.png);
     .container{
         display: flex;
-  justify-content: center;
-  align-items: center;
- 
+    justify-content: center;
+    align-items: center;
+        .botao-nutri{
+            background-color: @laranjaprimario;
+        }
+        .botao-nutri:hover{
+            background-color: @laranjaprimario;
+            filter: contrast(150%);
+        }
         .card{
             height: 32em ;
             width: 62em ;
-            
+            color: @laranjaprimario !important;
             .texto{
                 padding-left: 3em;
             }
@@ -342,7 +357,7 @@ button a{
                 overflow: hidden;
                 position: relative;
                 align-content: center;
-                border: 8px solid @ourosec;
+                border: 8px solid @laranjaprimario;
                 color: #fff;
                 img{
                     width: 100%;
@@ -355,9 +370,8 @@ button a{
 
     .bg-danger{
         
-            background-color: @laranjaprimario!important;
-        
-       
+            background-color:  @cinzasec !important;
+           
     }
 
 }
@@ -447,9 +461,7 @@ button a{
             
             .container{
                 
-                ul{
-                   
-                }
+               
                 
                 ul li{
                     
@@ -742,6 +754,23 @@ h2{
 
 }
 
+footer{
+    .col-sm-12{
+        width: 30em!important;
+    }
+    .quadrado__zap{
+        height: 40px;
+        width: 40px;
+    }
+    .quadrado__insta{
+        height: 40px;
+        width: 40px;
+    }
+    .bi{
+        font-size:1.67em !important;
+    }
+
+}
 
 }
 
