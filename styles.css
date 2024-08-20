@@ -133,6 +133,13 @@ span {
   width: 100%;
   height: 100%;
 }
+.banner-convenio {
+  background-color: #ed6935;
+  color: #fff;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  width: 100%;
+}
 #metodo {
   background-image: url('./img/plano-de-fundo/background2.png');
   background-size: cover;
@@ -396,9 +403,6 @@ button a {
   }
 }
 @media (max-width: 767px) {
-  body {
-    overflow-x: hidden;
-  }
   footer p {
     font-size: 0.9em;
     text-align: center;
