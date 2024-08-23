@@ -100,6 +100,21 @@ span {
   display: flex;
   justify-content: center;
 }
+#apresentacao .col-lg-5 {
+  height: 29em;
+}
+#apresentacao .col-lg-5 .container ul {
+  flex-wrap: wrap;
+}
+#apresentacao .col-lg-5 .container ul li {
+  max-width: 80%;
+  list-style: none;
+  position: relative;
+}
+#apresentacao .col-lg-5 .container ul li img {
+  width: 100%;
+  height: 50%;
+}
 #apresentacao p {
   color: #fff;
 }
@@ -116,29 +131,15 @@ span {
 #apresentacao span {
   font-weight: bolder;
 }
-#apresentacao .col-lg-5 {
-  height: 520px;
-  overflow-y: hidden;
-}
-#apresentacao .col-lg-5 .container ul {
-  flex-wrap: wrap;
-}
-#apresentacao .col-lg-5 .container ul li {
-  max-width: 80%;
-  list-style: none;
-  position: relative;
-  overflow-y: hidden;
-}
-#apresentacao .col-lg-5 .container ul li img {
-  width: 100%;
-  height: 100%;
-}
 .banner-convenio {
   background-color: #ed6935;
   color: #fff;
   padding-bottom: 0.1em;
   padding-top: 0.1em;
   width: 100%;
+}
+.banner-convenio p {
+  margin: 0;
 }
 #metodo {
   background-image: url('./img/plano-de-fundo/background2.png');
@@ -298,6 +299,12 @@ button a {
     background-image: url('./build/img/plano-de-fundo/background-escritorio.png');
     background-size: cover;
   }
+  #apresentacao .col-md-7 {
+    padding-bottom: 0px!important;
+  }
+  #apresentacao .col-md-7 .mx-auto {
+    padding-top: 0em !important;
+  }
   #apresentacao .col-md-5 {
     height: auto;
     flex: content;
@@ -409,7 +416,7 @@ button a {
   }
   #apresentacao {
     display: flex;
-    height: 50em;
+    height: 52em;
     background-image: url("./img/plano-de-fundo/background-lg-1.png");
     background-size: cover;
     overflow-x: hidden;
@@ -424,9 +431,6 @@ button a {
   }
   #apresentacao .container .fs-sl {
     font-size: medium;
-  }
-  #apresentacao .container .col-lg-5 {
-    width: 100%;
   }
   #apresentacao li {
     width: 20em;

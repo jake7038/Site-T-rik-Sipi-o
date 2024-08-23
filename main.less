@@ -7,6 +7,7 @@ body{
 }
 
 
+
 .foto-perfil-celular{
     display: none;
 }
@@ -123,7 +124,41 @@ span{
     background-size: cover;
     background-repeat: repeat-y;
     overflow-y: hidden;
-  
+
+    .col-lg-5{
+        height: 29em;
+        
+        
+        
+        
+        .container{
+            
+            ul{
+                
+                flex-wrap: wrap;
+            
+            }
+            
+            ul li{
+                max-width: 80%;
+                list-style: none;
+                position: relative;
+                
+                
+            }
+            
+            ul li img{
+                
+                width: 100%;
+                height: 50%;
+            }
+            
+        }
+        
+        
+    }
+    
+
     p{
         color: #fff  ;
     }
@@ -144,38 +179,7 @@ span{
         font-weight:bolder;
         
     }
-    .col-lg-5{
-        
-        height: 520px;
-        
-        overflow-y: hidden;
-        
-        .container{
-            
-            ul{
-                
-                flex-wrap: wrap;
-            
-            }
-            
-            ul li{
-                max-width: 80%;
-                list-style: none;
-                position: relative;
-                
-                overflow-y: hidden;
-            }
-            
-            ul li img{
-                
-                width: 100%;
-                height: 100%;
-            }
-            
-        }
-        
-        
-    }
+    
 
     }
 
@@ -185,6 +189,10 @@ span{
         padding-bottom: 0.1em;
         padding-top:  0.1em;
         width: 100%;
+        p{
+            margin: 0;
+
+        }
     }
     
 #metodo{
@@ -386,11 +394,18 @@ button a{
         background-image: url('./build/img/plano-de-fundo/background-escritorio.png');
         background-size:cover;
 
+        .col-md-7{
+            padding-bottom: 0px!important;
+
+            .mx-auto{
+                padding-top: 0.0em!important;
+            }
+        }
 
         .col-md-5{
         
             height: auto;
-           flex: content;
+            flex: content;
             overflow-y: hidden;
             
             .container{
@@ -554,7 +569,7 @@ button a{
     }
 #apresentacao{
     display: flex;
-    height: 50em;
+    height: 52em;
     background-image: url("./img/plano-de-fundo/background-lg-1.png");
     background-size: cover;
     overflow-x: hidden;
@@ -577,8 +592,7 @@ button a{
 
     .container{
         .col-lg-5{
-            width: 100%;
-           
+            
         }
     }
     
@@ -717,10 +731,15 @@ h2{
             position: relative;
             
         }
+
+        col.col-md-7{
+            
+        }
+
         .card{
             height: 70em ;
             width: 100% ;
-           
+        
             .texto{
                 padding-left: 3em;
                 h4{
