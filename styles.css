@@ -322,18 +322,15 @@ button a {
     position: absolute;
     width: 330px;
     overflow-y: hidden;
-    left: 30em;
+    left: 27em;
     top: 5.7em;
-  }
-  #apresentacao .col-md-5 .container ul li img {
-    width: 100%;
-    height: 100%;
   }
   #apresentacao {
     background-image: url('./img/plano-de-fundo/background-lg-1.png');
     background-size: cover;
     background-repeat: repeat-y;
     overflow-y: hidden;
+    overflow-x: hidden;
     object-fit: contain;
     position: relative;
     display: flex;
@@ -579,4 +576,16 @@ button a {
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+}
+.efeito-txt-top {
+  visibility: hidden;
+}
+.efeito-img-top {
+  visibility: hidden;
+}
+.efeito-card-metodo {
+  visibility: hidden;
+}
+.efeito-generic {
+  visibility: hidden;
 }
