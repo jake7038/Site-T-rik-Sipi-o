@@ -189,6 +189,9 @@ button a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#Resultados .container {
+  width: 90%;
+}
 #Resultados img {
   cursor: grab;
 }
@@ -333,6 +336,10 @@ button a {
     overflow-x: hidden;
     object-fit: contain;
     position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  #apresentacao .ipad-button {
     display: flex;
     justify-content: center;
   }
@@ -588,4 +595,9 @@ button a {
 }
 .efeito-generic {
   visibility: hidden;
+}
+.raleway-titulo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
 }
