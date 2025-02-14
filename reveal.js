@@ -1,4 +1,4 @@
-window.reveal = ScrollReveal({reset:true});
+window.reveal = ScrollReveal({reset:false});
 
 // Scroll Reveal da primeira seção
 reveal.reveal('.efeito-txt-top',{
